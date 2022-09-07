@@ -1,0 +1,111 @@
+{
+  "uid" : "fbf47db78fab9235",
+  "name" : "test_api[1-IP归属地-正确IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params0-200-location.*北京]",
+  "fullName" : "test_cases#test_api",
+  "historyId" : "fb87909dcfe311e1c8867bbb50d65074",
+  "time" : {
+    "start" : 1662536775931,
+    "stop" : 1662536776665,
+    "duration" : 734
+  },
+  "description" : "接口测试函数",
+  "descriptionHtml" : "<p>接口测试函数</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1662536775728,
+      "stop" : 1662536775931,
+      "duration" : 203
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "接口测试函数",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4af769c597c08616",
+      "name" : "log",
+      "source" : "4af769c597c08616.txt",
+      "type" : "text/plain",
+      "size" : 5238
+    }, {
+      "uid" : "7f78e866820348f7",
+      "name" : "stderr",
+      "source" : "7f78e866820348f7.txt",
+      "type" : "text/plain",
+      "size" : 5820
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9DJ43AJ"
+  }, {
+    "name" : "thread",
+    "value" : "15840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "200"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'IP归属地-正确IP'"
+  }, {
+    "name" : "number",
+    "value" : "1"
+  }, {
+    "name" : "params",
+    "value" : "{'ip': '119.75.217.109'}"
+  }, {
+    "name" : "pattern",
+    "value" : "'location.*北京'"
+  }, {
+    "name" : "url",
+    "value" : "'https://www.yuanxiapi.cn/api/iplocation/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbf47db78fab9235.json",
+  "parameterValues" : [ "200", "'POST'", "'IP归属地-正确IP'", "1", "{'ip': '119.75.217.109'}", "'location.*北京'", "'https://www.yuanxiapi.cn/api/iplocation/'" ]
+}

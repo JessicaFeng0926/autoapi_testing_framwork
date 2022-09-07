@@ -1,0 +1,29 @@
+-
+  number: 1
+  name: IP归属地-正确IP
+  url:  https://www.yuanxiapi.cn/api/iplocation/
+  method: POST
+  params: 
+          ip: 119.75.217.109
+  code: 200
+  pattern: location.*北京
+-
+  number: 2
+  name: IP归属地-错误IP
+  url:  https://www.yuanxiapi.cn/api/iplocation/
+  method: POST
+  params: 
+          ip: 119.75.207.109
+  code: 200
+  pattern: location.*null
+-
+  number: 3
+  name: IP归属地-不写IP
+  url:  https://www.yuanxiapi.cn/api/iplocation/
+  method: POST
+  params: 
+          {}
+  code: 200
+  pattern: 请输入IP
+  
+

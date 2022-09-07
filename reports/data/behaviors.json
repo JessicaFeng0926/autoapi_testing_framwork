@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_api[1-IP归属地-正确IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params0-200-location.*北京]",
+    "uid" : "fbf47db78fab9235",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662536775931,
+      "stop" : 1662536776665,
+      "duration" : 734
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'POST'", "'IP归属地-正确IP'", "1", "{'ip': '119.75.217.109'}", "'location.*北京'", "'https://www.yuanxiapi.cn/api/iplocation/'" ]
+  }, {
+    "name" : "test_api[2-IP归属地-错误IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params1-200-location.*null]",
+    "uid" : "73d070563ddab52e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662536776681,
+      "stop" : 1662536777759,
+      "duration" : 1078
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'POST'", "'IP归属地-错误IP'", "2", "{'ip': '119.75.207.109'}", "'location.*null'", "'https://www.yuanxiapi.cn/api/iplocation/'" ]
+  }, {
+    "name" : "test_api[3-IP归属地-不写IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params2-200-请输入IP]",
+    "uid" : "8322b45404f2f45d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662536777759,
+      "stop" : 1662536778492,
+      "duration" : 733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'POST'", "'IP归属地-不写IP'", "3", "{}", "'请输入IP'", "'https://www.yuanxiapi.cn/api/iplocation/'" ]
+  }, {
+    "name" : "test_api[1-天气-正确城市-http://wthrcdn.etouch.cn/weather_mini-GET-params3-200-city.*北京]",
+    "uid" : "e437715a1acd436a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662536778508,
+      "stop" : 1662536779057,
+      "duration" : 549
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'GET'", "'天气-正确城市'", "1", "{'city': '北京市'}", "'city.*北京'", "'http://wthrcdn.etouch.cn/weather_mini'" ]
+  }, {
+    "name" : "test_api[2-天气-错误城市-http://wthrcdn.etouch.cn/weather_mini-GET-params4-200-invalid-citykey]",
+    "uid" : "7385ee1cc07cb9ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1662536779073,
+      "stop" : 1662536779620,
+      "duration" : 547
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'GET'", "'天气-错误城市'", "2", "{'city': '哥谭市'}", "'invalid-citykey'", "'http://wthrcdn.etouch.cn/weather_mini'" ]
+  }, {
+    "name" : "test_api[3-天气-没有写城市-http://wthrcdn.etouch.cn/weather_mini-GET-params5-200-invalid-citykey]",
+    "uid" : "3df81bf556f4087c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1662536779776,
+      "stop" : 1662536780323,
+      "duration" : 547
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "200", "'GET'", "'天气-没有写城市'", "3", "{}", "'invalid-citykey'", "'http://wthrcdn.etouch.cn/weather_mini'" ]
+  } ]
+}

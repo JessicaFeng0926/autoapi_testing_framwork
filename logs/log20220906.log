@@ -1,0 +1,896 @@
+2022-09-06 11:51:31,241 |     INFO | load_data.py | 33 | 加载了data.yaml中的数据
+2022-09-06 11:51:31,262 |     INFO | load_data.py | 59 | 加载了data.xlsx中的数据
+    INFO | 2022-09-06 11:52:26,198 | load_data.py | 33 | 加载了data.yaml中的数据
+    INFO | 2022-09-06 11:52:26,212 | load_data.py | 59 | 加载了data.xlsx中的数据
+    INFO | load_data.py | 33 | 2022-09-06 11:53:07,023 | 加载了data.yaml中的数据
+    INFO | load_data.py | 59 | 2022-09-06 11:53:07,036 | 加载了data.xlsx中的数据
+    INFO | load_data.py | Line33 | 2022-09-06 11:53:34,092 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 11:53:34,104 | 加载了data.xlsx中的数据
+    INFO | load_data.py | Line33 | 2022-09-06 12:20:18,482 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:20:18,493 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line21 | 2022-09-06 12:20:18,999 | 正在处理POST请求
+    INFO | load_data.py | Line33 | 2022-09-06 12:21:20,323 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:21:20,333 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line21 | 2022-09-06 12:21:20,839 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 12:21:20,846 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:21:21,230 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 12:24:06,289 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:24:06,611 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | load_data.py | Line33 | 2022-09-06 12:25:21,802 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:25:21,812 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line21 | 2022-09-06 12:25:22,319 | 正在处理POST请求
+    INFO | load_data.py | Line33 | 2022-09-06 12:26:18,986 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:26:18,996 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line21 | 2022-09-06 12:26:19,509 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 12:26:19,512 | Starting new HTTPS connection (1): weatherquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:26:19,823 | https://weatherquery.api.bdymkt.com:443 "POST /weather/query/by-area HTTP/1.1" 400 0
+    INFO | load_data.py | Line33 | 2022-09-06 12:38:20,422 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:38:20,458 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:38:20,974 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:38:20,984 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:38:21,130 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | load_data.py | Line33 | 2022-09-06 12:38:48,221 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:38:48,231 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:38:48,737 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:38:48,742 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:38:48,774 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | load_data.py | Line33 | 2022-09-06 12:41:38,249 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:41:38,261 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:41:38,766 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:41:38,775 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:41:38,828 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | load_data.py | Line33 | 2022-09-06 12:42:00,027 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:42:00,039 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:42:00,553 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:42:00,557 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:42:00,600 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | load_data.py | Line33 | 2022-09-06 12:47:17,999 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:47:18,010 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:47:18,510 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:47:18,517 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:47:18,708 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 None
+    INFO | load_data.py | Line33 | 2022-09-06 12:48:24,585 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:48:24,595 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:48:25,101 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:48:25,108 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:48:25,156 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line37 | 2022-09-06 12:48:25,160 | 返回状态码不符200!=400
+    INFO | load_data.py | Line33 | 2022-09-06 12:49:20,722 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:49:20,732 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:49:21,245 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:49:21,248 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:49:21,284 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line38 | 2022-09-06 12:49:21,286 | 返回状态码不符200!=400
+    INFO | simple_requests.py | Line42 | 2022-09-06 12:49:21,288 | 不存在指定的字符串模式[错误]
+    INFO | load_data.py | Line33 | 2022-09-06 12:49:38,223 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:49:38,234 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:49:38,744 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:49:38,754 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:49:38,788 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line38 | 2022-09-06 12:49:38,790 | 返回状态码不符200!=400
+    INFO | simple_requests.py | Line42 | 2022-09-06 12:49:38,791 | 不存在指定的字符串模式[错误]
+    INFO | load_data.py | Line33 | 2022-09-06 12:51:28,376 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:51:28,395 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:51:28,902 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:51:28,906 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:51:28,949 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 12:51:28,952 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 12:51:52,151 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:51:52,161 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:51:52,675 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:51:52,681 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:51:52,724 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | load_data.py | Line33 | 2022-09-06 12:53:17,217 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line33 | 2022-09-06 12:53:55,743 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:53:55,755 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:53:56,256 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:53:56,264 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:53:56,313 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city= HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line38 | 2022-09-06 12:53:56,315 | 返回状态码不符200!=400
+    INFO | simple_requests.py | Line42 | 2022-09-06 12:53:56,316 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 12:54:18,602 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line59 | 2022-09-06 12:54:18,613 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:54:19,120 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:54:19,124 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:54:19,156 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city= HTTP/1.1" 200 60
+    INFO | load_data.py | Line33 | 2022-09-06 12:56:56,007 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 12:56:56,018 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line18 | 2022-09-06 12:56:56,520 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 12:56:56,524 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 12:56:56,675 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line42 | 2022-09-06 12:56:56,691 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 14:48:36,905 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 14:48:36,936 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,936 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,952 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,952 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,968 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,968 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 14:48:36,968 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,968 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,968 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,983 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,983 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,983 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,983 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,983 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,999 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,999 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,999 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,999 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,999 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:48:36,999 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:36,999 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:36,999 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,014 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,014 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:48:37,014 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,014 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,014 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,030 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,030 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,030 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,030 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,030 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,046 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,046 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,061 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:48:37,061 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:48:37,061 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:48:37,061 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:48:37,061 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:48:37,077 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:48:37,577 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:48:37,577 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:48:37,874 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 14:48:37,874 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:48:37,874 | 不存在指定的字符串模式[prov.*山东]
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:48:38,545 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:48:38,545 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:48:38,795 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:48:38,811 | 不存在指定的字符串模式[参数不正确]
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:48:39,326 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:48:39,326 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:48:39,561 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 14:48:39,576 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:48:39,576 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:48:40,076 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:48:40,076 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:48:40,217 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line22 | 2022-09-06 14:48:40,217 | 测试用例#1 天气-正确城市执行完毕
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:48:40,732 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:48:40,732 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:48:40,935 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:48:40,967 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:48:41,498 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:48:41,498 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:48:41,576 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:48:41,576 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 14:50:58,658 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 14:50:58,673 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,673 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,689 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,689 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,689 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,689 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 14:50:58,689 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,689 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,705 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,705 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,705 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,705 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,705 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,705 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,720 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,720 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,720 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,720 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,720 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:50:58,720 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,720 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,720 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,720 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,736 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:50:58,736 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,736 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,736 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,736 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,751 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,751 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,751 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,751 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,751 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,767 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,767 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:50:58,767 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:50:58,767 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:50:58,767 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:50:58,783 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:50:58,783 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 14:50:58,783 | 测试用例#1 油价-正确省份开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:50:59,298 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:50:59,298 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:50:59,564 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 14:50:59,579 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:50:59,579 | 不存在指定的字符串模式[prov.*山东]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:50:59,736 | 测试用例#2 油价-错误省份开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:51:00,251 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:51:00,251 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:00,485 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:00,485 | 不存在指定的字符串模式[参数不正确]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:00,485 | 测试用例#3 油价-不写省份开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:51:01,001 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:51:01,001 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:01,235 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 14:51:01,235 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:01,235 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:01,251 | 测试用例#1 天气-正确城市开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:51:01,766 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:51:01,766 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:02,313 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 14:51:02,313 | 测试用例#1 天气-正确城市执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:02,313 | 测试用例#2 天气-错误城市开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:51:02,813 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:51:02,813 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:02,829 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:02,829 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:02,844 | 测试用例#3 天气-没有写城市开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:51:03,360 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:51:03,360 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:03,485 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:03,485 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 14:51:35,863 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 14:51:35,863 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,879 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,879 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,895 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,895 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,895 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 14:51:35,895 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,910 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,910 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,910 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,910 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,910 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,926 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,926 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,926 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,926 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,926 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,926 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,926 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:51:35,941 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,941 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,941 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,941 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,941 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:51:35,941 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,941 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,957 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,957 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,957 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,957 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,957 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,957 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,973 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,973 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:35,988 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:51:35,988 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:51:35,988 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 14:51:35,988 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 14:51:36,004 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 14:51:36,004 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:36,004 | 测试用例【#1 油价-正确省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:51:36,519 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:51:36,519 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:36,754 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 14:51:36,754 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:36,754 | 不存在指定的字符串模式[prov.*山东]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:36,920 | 测试用例【#2 油价-错误省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:51:37,436 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:51:37,436 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:37,639 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:37,654 | 不存在指定的字符串模式[参数不正确]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:37,654 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 14:51:38,170 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 14:51:38,170 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:38,373 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 14:51:38,373 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:38,389 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:38,389 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:51:38,904 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:51:38,904 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:38,920 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 14:51:38,920 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:38,935 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:51:39,451 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:51:39,451 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:40,060 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:40,060 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 14:51:40,060 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 14:51:40,576 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 14:51:40,576 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 14:51:40,685 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 14:51:40,701 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:26:56,816 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:26:56,848 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,863 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,879 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,879 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,879 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,895 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:26:56,895 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,895 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,895 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,895 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,895 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,895 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,910 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,910 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,910 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,910 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,910 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,910 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,926 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:26:56,926 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,926 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,926 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,926 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,926 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:26:56,942 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,942 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,942 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,942 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,942 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,957 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,957 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,957 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,957 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,973 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,973 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:26:56,973 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:26:56,973 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:26:56,973 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:26:56,988 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:26:56,988 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:26:56,988 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:26:57,504 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:26:57,504 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:26:57,738 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:26:57,738 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:26:57,738 | 测试用例【#2 油价-错误省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:26:58,254 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:26:58,254 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:26:58,535 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:26:58,535 | 不存在指定的字符串模式[参数不正确]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:26:58,722 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:26:59,238 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:26:59,238 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:26:59,535 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:26:59,535 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:26:59,535 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:26:59,535 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:27:00,050 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:27:00,050 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:27:00,191 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:27:00,191 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:27:00,191 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:27:00,706 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:27:00,706 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:27:01,003 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:27:01,003 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:27:01,003 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:27:01,519 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:27:01,519 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:27:01,862 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:27:01,862 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:28:47,922 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:28:47,969 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:47,969 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:47,969 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:47,984 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:47,984 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:47,984 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:28:48,000 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,000 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,000 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,000 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,000 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,000 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,016 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,016 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,016 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,016 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,016 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,016 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,016 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:28:48,016 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,016 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,016 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,031 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,031 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:28:48,031 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,031 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,031 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,047 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,047 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,047 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,047 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,047 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,063 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,063 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,078 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:28:48,078 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:28:48,078 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:28:48,078 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:28:48,078 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:28:48,094 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:28:48,094 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:28:48,609 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:28:48,609 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:28:48,797 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:28:48,797 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:28:48,797 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:28:49,312 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:28:49,312 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:28:49,562 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:28:49,562 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:28:49,562 | 不存在指定的字符串模式[location.*null]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:28:49,734 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:28:50,281 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:28:50,281 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:28:50,531 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:28:50,531 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:28:50,531 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:28:50,531 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:28:51,046 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:28:51,062 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:28:51,156 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:28:51,156 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:28:51,156 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:28:51,671 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:28:51,671 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:28:51,702 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:28:51,702 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:28:51,702 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:28:52,218 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:28:52,218 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:28:52,343 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:28:52,343 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:29:22,416 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:29:22,431 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,431 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,447 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,447 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,447 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,447 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:29:22,447 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,447 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,463 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,463 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,463 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,463 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,463 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,463 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,478 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,478 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,478 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,478 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,478 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:29:22,478 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,478 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,478 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,478 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,494 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:29:22,494 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,494 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,494 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,494 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,510 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,510 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,510 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,510 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,525 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,525 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,525 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:29:22,541 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:29:22,541 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:29:22,541 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:29:22,541 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:29:22,541 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:29:22,541 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:29:23,056 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:29:23,056 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:29:23,244 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:29:23,244 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:29:23,244 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:29:23,759 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:29:23,759 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:29:23,978 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:29:23,994 | 不存在指定的字符串模式[location.*null]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:29:24,150 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:29:24,650 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:29:24,650 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:29:24,884 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:29:24,884 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:29:24,900 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:29:24,915 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:29:25,431 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:29:25,431 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:29:25,446 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:29:25,462 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:29:25,462 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:29:25,977 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:29:25,977 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:29:25,993 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:29:25,993 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:29:26,009 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:29:26,524 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:29:26,524 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:29:26,540 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:29:26,555 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:30:55,556 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:30:55,556 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,556 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,572 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,572 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,572 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,588 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:30:55,588 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,588 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,588 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,588 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,603 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,603 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,603 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,603 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,603 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,603 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,619 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,619 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,619 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:30:55,619 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,619 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,619 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,619 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,634 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:30:55,634 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,634 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,634 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,634 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,634 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,634 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,650 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,650 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,650 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,759 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,775 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:30:55,775 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:30:55,775 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:30:55,775 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:30:55,791 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:30:55,791 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:30:55,791 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:30:56,291 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:30:56,291 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:30:56,494 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:30:56,509 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:30:56,509 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:30:57,025 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:30:57,025 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:30:57,243 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:30:57,243 | 不存在指定的字符串模式[location.*\}]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:30:57,384 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:30:57,900 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:30:57,900 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:30:58,134 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:30:58,134 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:30:58,134 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:30:58,149 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:30:58,665 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:30:58,665 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:30:58,712 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:30:58,712 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:30:58,712 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:30:59,227 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:30:59,227 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:30:59,243 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:30:59,243 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:30:59,259 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:30:59,759 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:30:59,759 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:30:59,774 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:30:59,774 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:31:18,611 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:31:18,611 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,627 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,627 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,627 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,642 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,642 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:31:18,642 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,642 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,642 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,658 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,658 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,658 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,658 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,658 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,658 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,658 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,658 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,673 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,673 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:31:18,673 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,673 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,673 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,673 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,689 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:31:18,689 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,689 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,689 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,689 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,689 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,689 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,705 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,705 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,705 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,720 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,720 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:31:18,720 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:31:18,720 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:31:18,720 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:31:18,736 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:31:18,736 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:31:18,736 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:31:19,252 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:31:19,252 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:31:19,470 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:31:19,470 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:31:19,470 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:31:19,986 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:31:19,986 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:31:20,189 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:31:20,189 | 不存在指定的字符串模式[location.*}]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:31:20,361 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:31:20,876 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:31:20,876 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:31:21,110 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:31:21,110 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:31:21,110 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:31:21,126 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:31:21,642 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:31:21,642 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:31:21,657 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:31:21,673 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:31:21,673 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:31:22,188 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:31:22,188 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:31:22,204 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:31:22,204 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:31:22,219 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:31:22,735 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:31:22,735 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:31:22,751 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:31:22,751 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:32:03,537 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:32:03,562 | 加载了data.xlsx中的数据
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:32:04,065 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:32:04,074 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:04,335 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:32:04,338 | 不存在指定的字符串模式[location.*}]
+    INFO | load_data.py | Line33 | 2022-09-06 15:32:48,763 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:32:48,763 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,779 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,779 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,779 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,794 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,794 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:32:48,794 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,794 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,794 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,794 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,810 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,810 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,810 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,810 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,810 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,810 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,810 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,825 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,825 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:32:48,825 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,825 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,825 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,825 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,841 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:32:48,841 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,841 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,841 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,841 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,841 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,841 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,857 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,857 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,857 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,872 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,872 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:32:48,872 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:32:48,872 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:32:48,872 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:32:48,888 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:32:48,888 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:32:48,888 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:32:49,404 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:32:49,404 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:49,622 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:32:49,622 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:32:49,622 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:32:50,138 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:32:50,138 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:50,716 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:32:50,716 | 返回状态码不符200!=400
+    INFO | test_cases.py | Line19 | 2022-09-06 15:32:50,856 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:32:51,372 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:32:51,372 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:51,591 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:32:51,591 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:32:51,591 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:32:51,606 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:32:52,107 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:32:52,107 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:52,154 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:32:52,154 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:32:52,154 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:32:52,670 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:32:52,670 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:52,826 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:32:52,826 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:32:52,841 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:32:53,341 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:32:53,341 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:32:53,357 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:32:53,357 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:33:17,620 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:33:17,620 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,620 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,635 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,635 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,635 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,635 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:33:17,651 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,651 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,651 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,651 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,651 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,651 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,666 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,666 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,666 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,666 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,666 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,666 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,682 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:33:17,776 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,776 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,776 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,776 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,791 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:33:17,791 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,791 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,791 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,791 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,791 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,807 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,807 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,807 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,807 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,823 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,823 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:33:17,823 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:33:17,823 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:33:17,823 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:33:17,838 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:33:17,838 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:33:17,838 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:33:18,341 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:33:18,341 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:33:18,528 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:33:18,528 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:33:18,528 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:33:19,043 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:33:19,043 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:33:19,528 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:33:19,528 | 测试用例【#2 IP归属地-错误IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:33:19,543 | 测试用例【#3 油价-不写省份】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:33:20,059 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:33:20,059 | Starting new HTTPS connection (1): jmoliquery.api.bdymkt.com:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:33:20,293 | https://jmoliquery.api.bdymkt.com:443 "POST /oil/price-today/query HTTP/1.1" 400 0
+    INFO | simple_requests.py | Line38 | 2022-09-06 15:33:20,387 | 返回状态码不符400!=200
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:33:20,387 | 不存在指定的字符串模式[prov.*黑龙江]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:33:20,543 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:33:21,059 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:33:21,059 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:33:21,137 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:33:21,152 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:33:21,152 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:33:21,660 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:33:21,660 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:33:21,692 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:33:21,692 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:33:21,692 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:33:22,207 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:33:22,207 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:33:22,223 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:33:22,223 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | load_data.py | Line33 | 2022-09-06 15:35:20,013 | 加载了data.yaml中的数据
+    INFO | load_data.py | Line62 | 2022-09-06 15:35:20,028 | 加载了data.xlsx中的数据
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,028 | Looking for locale `en_US` in provider `faker.providers.address`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,044 | Provider `faker.providers.address` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,044 | Looking for locale `en_US` in provider `faker.providers.automotive`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,044 | Provider `faker.providers.automotive` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,044 | Looking for locale `en_US` in provider `faker.providers.bank`.
+   DEBUG | factory.py | Line98 | 2022-09-06 15:35:20,060 | Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,060 | Looking for locale `en_US` in provider `faker.providers.barcode`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,060 | Provider `faker.providers.barcode` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,060 | Looking for locale `en_US` in provider `faker.providers.color`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,060 | Provider `faker.providers.color` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,060 | Looking for locale `en_US` in provider `faker.providers.company`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,075 | Provider `faker.providers.company` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,075 | Looking for locale `en_US` in provider `faker.providers.credit_card`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,075 | Provider `faker.providers.credit_card` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,075 | Looking for locale `en_US` in provider `faker.providers.currency`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,075 | Provider `faker.providers.currency` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,075 | Looking for locale `en_US` in provider `faker.providers.date_time`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,075 | Provider `faker.providers.date_time` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:35:20,091 | Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,091 | Looking for locale `en_US` in provider `faker.providers.geo`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,091 | Provider `faker.providers.geo` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,091 | Looking for locale `en_US` in provider `faker.providers.internet`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,091 | Provider `faker.providers.internet` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:35:20,091 | Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,091 | Looking for locale `en_US` in provider `faker.providers.job`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,106 | Provider `faker.providers.job` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,106 | Looking for locale `en_US` in provider `faker.providers.lorem`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,106 | Provider `faker.providers.lorem` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,106 | Looking for locale `en_US` in provider `faker.providers.misc`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,106 | Provider `faker.providers.misc` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,106 | Looking for locale `en_US` in provider `faker.providers.person`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,122 | Provider `faker.providers.person` has been localized to `en_US`.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,122 | Looking for locale `en_US` in provider `faker.providers.phone_number`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,138 | Provider `faker.providers.phone_number` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:35:20,138 | Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:35:20,138 | Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+   DEBUG | factory.py | Line90 | 2022-09-06 15:35:20,138 | Looking for locale `en_US` in provider `faker.providers.ssn`.
+   DEBUG | factory.py | Line104 | 2022-09-06 15:35:20,138 | Provider `faker.providers.ssn` has been localized to `en_US`.
+   DEBUG | factory.py | Line115 | 2022-09-06 15:35:20,138 | Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+    INFO | test_cases.py | Line19 | 2022-09-06 15:35:20,153 | 测试用例【#1 IP归属地-正确IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:35:20,669 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:35:20,669 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:35:20,887 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:35:20,887 | 测试用例【#1 IP归属地-正确IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:35:20,887 | 测试用例【#2 IP归属地-错误IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:35:21,403 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:35:21,403 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:35:21,965 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:35:21,965 | 测试用例【#2 IP归属地-错误IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:35:21,965 | 测试用例【#3 IP归属地-不写IP】开始执行
+    INFO | simple_requests.py | Line21 | 2022-09-06 15:35:22,481 | 正在处理POST请求
+   DEBUG | connectionpool.py | Line971 | 2022-09-06 15:35:22,481 | Starting new HTTPS connection (1): www.yuanxiapi.cn:443
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:35:22,668 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | test_cases.py | Line23 | 2022-09-06 15:35:22,668 | 测试用例【#3 IP归属地-不写IP】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:35:22,668 | 测试用例【#1 天气-正确城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:35:23,184 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:35:23,184 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:35:23,215 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 408
+    INFO | test_cases.py | Line23 | 2022-09-06 15:35:23,231 | 测试用例【#1 天气-正确城市】执行完毕
+    INFO | test_cases.py | Line19 | 2022-09-06 15:35:23,231 | 测试用例【#2 天气-错误城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:35:23,731 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:35:23,731 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:35:23,762 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:35:23,762 | 不存在指定的字符串模式[invalid-citykey]
+    INFO | test_cases.py | Line19 | 2022-09-06 15:35:23,902 | 测试用例【#3 天气-没有写城市】开始执行
+    INFO | simple_requests.py | Line18 | 2022-09-06 15:35:24,418 | 正在处理GET请求
+   DEBUG | connectionpool.py | Line227 | 2022-09-06 15:35:24,418 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-06 15:35:24,496 | http://wthrcdn.etouch.cn:80 "GET /weather_mini HTTP/1.1" 200 60
+    INFO | simple_requests.py | Line42 | 2022-09-06 15:35:24,496 | 不存在指定的字符串模式[invalid-citykey]

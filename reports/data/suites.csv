@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Sep 07 15:46:19 CST 2022","Wed Sep 07 15:46:19 CST 2022","547","","test_cases","","","","test_api[2-天气-错误城市-http://wthrcdn.etouch.cn/weather_mini-GET-params4-200-invalid-citykey]","接口测试函数"
+"passed","Wed Sep 07 15:46:16 CST 2022","Wed Sep 07 15:46:17 CST 2022","1078","","test_cases","","","","test_api[2-IP归属地-错误IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params1-200-location.*null]","接口测试函数"
+"passed","Wed Sep 07 15:46:18 CST 2022","Wed Sep 07 15:46:19 CST 2022","549","","test_cases","","","","test_api[1-天气-正确城市-http://wthrcdn.etouch.cn/weather_mini-GET-params3-200-city.*北京]","接口测试函数"
+"failed","Wed Sep 07 15:46:19 CST 2022","Wed Sep 07 15:46:20 CST 2022","547","","test_cases","","","","test_api[3-天气-没有写城市-http://wthrcdn.etouch.cn/weather_mini-GET-params5-200-invalid-citykey]","接口测试函数"
+"passed","Wed Sep 07 15:46:15 CST 2022","Wed Sep 07 15:46:16 CST 2022","734","","test_cases","","","","test_api[1-IP归属地-正确IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params0-200-location.*北京]","接口测试函数"
+"passed","Wed Sep 07 15:46:17 CST 2022","Wed Sep 07 15:46:18 CST 2022","733","","test_cases","","","","test_api[3-IP归属地-不写IP-https://www.yuanxiapi.cn/api/iplocation/-POST-params2-200-请输入IP]","接口测试函数"

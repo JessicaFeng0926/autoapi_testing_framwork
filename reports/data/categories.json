@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22D47B20>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22D47B20>> = <simple_requests.RequestsHandler object at 0x0000016A22D47B20>.check_response",
+      "children" : [ {
+        "name" : "test_api[2-天气-错误城市-http://wthrcdn.etouch.cn/weather_mini-GET-params4-200-invalid-citykey]",
+        "uid" : "7385ee1cc07cb9ae",
+        "parentUid" : "caf97381158f878d04995228acf0887a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662536779073,
+          "stop" : 1662536779620,
+          "duration" : 547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "200", "'GET'", "'天气-错误城市'", "2", "{'city': '哥谭市'}", "'invalid-citykey'", "'http://wthrcdn.etouch.cn/weather_mini'" ]
+      } ],
+      "uid" : "caf97381158f878d04995228acf0887a"
+    }, {
+      "name" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22DFD670>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22DFD670>> = <simple_requests.RequestsHandler object at 0x0000016A22DFD670>.check_response",
+      "children" : [ {
+        "name" : "test_api[3-天气-没有写城市-http://wthrcdn.etouch.cn/weather_mini-GET-params5-200-invalid-citykey]",
+        "uid" : "3df81bf556f4087c",
+        "parentUid" : "88bbf9b2f960542a4d487d0dc289aea9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662536779776,
+          "stop" : 1662536780323,
+          "duration" : 547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "200", "'GET'", "'天气-没有写城市'", "3", "{}", "'invalid-citykey'", "'http://wthrcdn.etouch.cn/weather_mini'" ]
+      } ],
+      "uid" : "88bbf9b2f960542a4d487d0dc289aea9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

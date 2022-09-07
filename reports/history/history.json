@@ -1,0 +1,118 @@
+{
+  "fb87909dcfe311e1c8867bbb50d65074" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbf47db78fab9235",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662536775931,
+        "stop" : 1662536776665,
+        "duration" : 734
+      }
+    } ]
+  },
+  "9c682925b63a589d3ff9ffd4bd2dbb8c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8322b45404f2f45d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662536777759,
+        "stop" : 1662536778492,
+        "duration" : 733
+      }
+    } ]
+  },
+  "a1b8e50b71ba7f3e57a86619d9d3b8d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73d070563ddab52e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662536776681,
+        "stop" : 1662536777759,
+        "duration" : 1078
+      }
+    } ]
+  },
+  "170229fb1c20241e4ff7c6acecfef605" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7385ee1cc07cb9ae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22D47B20>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22D47B20>> = <simple_requests.RequestsHandler object at 0x0000016A22D47B20>.check_response",
+      "time" : {
+        "start" : 1662536779073,
+        "stop" : 1662536779620,
+        "duration" : 547
+      }
+    } ]
+  },
+  "8b6584e862aceca3b45dd4bab4d3c7fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3df81bf556f4087c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22DFD670>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22DFD670>> = <simple_requests.RequestsHandler object at 0x0000016A22DFD670>.check_response",
+      "time" : {
+        "start" : 1662536779776,
+        "stop" : 1662536780323,
+        "duration" : 547
+      }
+    } ]
+  },
+  "cce2d34f0dd40091b6f81b30bc588d61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e437715a1acd436a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662536778508,
+        "stop" : 1662536779057,
+        "duration" : 549
+      }
+    } ]
+  }
+}
