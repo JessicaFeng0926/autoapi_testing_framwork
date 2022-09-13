@@ -1,0 +1,4 @@
+    INFO | test_cases.py | Line20 | 2022-09-13 11:12:02,895 | 测试用例【#3 IP归属地-不写IP】开始执行
+   DEBUG | connectionpool.py | Line452 | 2022-09-13 11:12:03,462 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line20 | 2022-09-13 11:12:03,462 | 正确处理了POST请求
+    INFO | test_cases.py | Line32 | 2022-09-13 11:12:03,462 | 测试用例【#3 IP归属地-不写IP】执行完毕

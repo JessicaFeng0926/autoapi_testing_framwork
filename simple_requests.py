@@ -4,27 +4,23 @@ from simple_logger import LOGGER
 import time 
 
 class RequestsHandler:
-    def __init__(self):
-        self.headers = {
-                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',
-            }
+    session = requests.Session()
 
-    def get_response(self,method,url,params):
+    def get_response(self,method,url,**kwargs):
         '''
-        完成请求并返回响应 如果无法识别请求类型 会返回包含错误信息的响应
+        完成请求并返回响应 如果出现异常 会返回包含错误信息的响应
         '''
         time.sleep(0.5)
-        if method == 'GET':
-            LOGGER.info("正在处理GET请求")
-            return requests.get(url=url,params=params,headers=self.headers)
-        elif method == 'POST':
-            LOGGER.info("正在处理POST请求")
-            return requests.post(url=url,data=params,headers=self.headers)
-        else:
-            res = requests.Response()
-            res.status_code = 400
-            LOGGER.error("无法识别请求类型")
-            return res
+        res = requests.Response() 
+        try:
+            res = self.__class__.session.request(method,url,**kwargs)
+        except Exception as e:
+            LOGGER.exception(e)
+        finally:
+            LOGGER.info(f"正确处理了{method}请求")
+            return res 
+
+        
 
     def check_response(self,response,code,pattern):
         '''

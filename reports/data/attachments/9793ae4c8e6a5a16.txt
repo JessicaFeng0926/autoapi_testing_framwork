@@ -1,5 +1,0 @@
-    INFO | test_cases.py | Line19 | 2022-09-07 15:46:19,073 | 测试用例【#2 天气-错误城市】开始执行
-    INFO | simple_requests.py | Line18 | 2022-09-07 15:46:19,588 | 正在处理GET请求
-   DEBUG | connectionpool.py | Line227 | 2022-09-07 15:46:19,588 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
-   DEBUG | connectionpool.py | Line452 | 2022-09-07 15:46:19,619 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%93%A5%E8%B0%AD%E5%B8%82 HTTP/1.1" 200 60
-    INFO | simple_requests.py | Line42 | 2022-09-07 15:46:19,619 | 不存在指定的字符串模式[invalid-citykey]

@@ -1,0 +1,119 @@
+{
+  "uid" : "f8f9b45e3b8863a7",
+  "name" : "test_api[3-天气-没有写城市-http://wthrcdn.etouch.cn/weather_mini-GET-params5-200-invalid-citykey]",
+  "fullName" : "test_cases#test_api",
+  "historyId" : "8b6584e862aceca3b45dd4bab4d3c7fd",
+  "time" : {
+    "start" : 1663038724690,
+    "stop" : 1663038725208,
+    "duration" : 518
+  },
+  "description" : "接口测试函数",
+  "descriptionHtml" : "<p>接口测试函数</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>> = <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>.check_response",
+  "statusTrace" : "number = 3, name = '天气-没有写城市', url = 'http://wthrcdn.etouch.cn/weather_mini', method = 'GET', params = {}\ncode = 200, pattern = 'invalid-citykey'\n\n    @pytest.mark.parametrize(\n            [\n            'number',\n            'name',\n            'url',\n            'method',\n            'params',\n            'code',\n            'pattern',\n            ],\n            Data())\n    def test_api(number,name,url,method,params,code,pattern):\n        '''接口测试函数'''\n        LOGGER.info(f'测试用例【#{number} {name}】开始执行')\n        rh = RequestsHandler()\n        headers = {\n            'User-Agent':\n                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',\n        }\n        response = requests.Response()\n        if method.lower() == 'get':\n            response = rh.get_response(method,url,headers=headers,params=params)\n        elif method.lower() == 'post':\n            response = rh.get_response(method,url,headers=headers,data=params)\n>       assert rh.check_response(response,code,pattern) == True\nE       AssertionError: assert False == True\nE        +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>>(<Response [200]>, 200, 'invalid-citykey')\nE        +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>> = <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>.check_response\n\ntest_cases.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1663038721094,
+      "stop" : 1663038721204,
+      "duration" : 110
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "接口测试函数",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>> = <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>.check_response",
+    "statusTrace" : "number = 3, name = '天气-没有写城市', url = 'http://wthrcdn.etouch.cn/weather_mini', method = 'GET', params = {}\ncode = 200, pattern = 'invalid-citykey'\n\n    @pytest.mark.parametrize(\n            [\n            'number',\n            'name',\n            'url',\n            'method',\n            'params',\n            'code',\n            'pattern',\n            ],\n            Data())\n    def test_api(number,name,url,method,params,code,pattern):\n        '''接口测试函数'''\n        LOGGER.info(f'测试用例【#{number} {name}】开始执行')\n        rh = RequestsHandler()\n        headers = {\n            'User-Agent':\n                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36',\n        }\n        response = requests.Response()\n        if method.lower() == 'get':\n            response = rh.get_response(method,url,headers=headers,params=params)\n        elif method.lower() == 'post':\n            response = rh.get_response(method,url,headers=headers,data=params)\n>       assert rh.check_response(response,code,pattern) == True\nE       AssertionError: assert False == True\nE        +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>>(<Response [200]>, 200, 'invalid-citykey')\nE        +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>> = <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>.check_response\n\ntest_cases.py:31: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff6288161f763226",
+      "name" : "log",
+      "source" : "ff6288161f763226.txt",
+      "type" : "text/plain",
+      "size" : 388
+    }, {
+      "uid" : "f49a4f57e7448b37",
+      "name" : "stderr",
+      "source" : "f49a4f57e7448b37.txt",
+      "type" : "text/plain",
+      "size" : 459
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9DJ43AJ"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "200"
+  }, {
+    "name" : "method",
+    "value" : "'GET'"
+  }, {
+    "name" : "name",
+    "value" : "'天气-没有写城市'"
+  }, {
+    "name" : "number",
+    "value" : "3"
+  }, {
+    "name" : "params",
+    "value" : "{}"
+  }, {
+    "name" : "pattern",
+    "value" : "'invalid-citykey'"
+  }, {
+    "name" : "url",
+    "value" : "'http://wthrcdn.etouch.cn/weather_mini'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f8f9b45e3b8863a7.json",
+  "parameterValues" : [ "200", "'GET'", "'天气-没有写城市'", "3", "{}", "'invalid-citykey'", "'http://wthrcdn.etouch.cn/weather_mini'" ]
+}

@@ -9,11 +9,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fbf47db78fab9235",
+      "uid" : "d4cf2b9f7ca90017",
       "status" : "passed",
       "time" : {
-        "start" : 1662536775931,
-        "stop" : 1662536776665,
+        "start" : 1663038721204,
+        "stop" : 1663038721938,
         "duration" : 734
       }
     } ]
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8322b45404f2f45d",
+      "uid" : "33556a06d8df40b4",
       "status" : "passed",
       "time" : {
-        "start" : 1662536777759,
-        "stop" : 1662536778492,
-        "duration" : 733
+        "start" : 1663038722895,
+        "stop" : 1663038723462,
+        "duration" : 567
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73d070563ddab52e",
+      "uid" : "bd9e27c7bddc56a9",
       "status" : "passed",
       "time" : {
-        "start" : 1662536776681,
-        "stop" : 1662536777759,
-        "duration" : 1078
+        "start" : 1663038721938,
+        "stop" : 1663038722880,
+        "duration" : 942
       }
     } ]
   },
@@ -66,13 +66,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7385ee1cc07cb9ae",
+      "uid" : "2f32c3dfd4e751bc",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22D47B20>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22D47B20>> = <simple_requests.RequestsHandler object at 0x0000016A22D47B20>.check_response",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA0370>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA0370>> = <simple_requests.RequestsHandler object at 0x0000023CE0EA0370>.check_response",
       "time" : {
-        "start" : 1662536779073,
-        "stop" : 1662536779620,
-        "duration" : 547
+        "start" : 1663038724015,
+        "stop" : 1663038724533,
+        "duration" : 518
       }
     } ]
   },
@@ -86,13 +86,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3df81bf556f4087c",
+      "uid" : "f8f9b45e3b8863a7",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22DFD670>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000016A22DFD670>> = <simple_requests.RequestsHandler object at 0x0000016A22DFD670>.check_response",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>>(<Response [200]>, 200, 'invalid-citykey')\n +    where <bound method RequestsHandler.check_response of <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>> = <simple_requests.RequestsHandler object at 0x0000023CE0EA5DC0>.check_response",
       "time" : {
-        "start" : 1662536779776,
-        "stop" : 1662536780323,
-        "duration" : 547
+        "start" : 1663038724690,
+        "stop" : 1663038725208,
+        "duration" : 518
       }
     } ]
   },
@@ -106,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e437715a1acd436a",
+      "uid" : "45362bf95af2e6a9",
       "status" : "passed",
       "time" : {
-        "start" : 1662536778508,
-        "stop" : 1662536779057,
-        "duration" : 549
+        "start" : 1663038723478,
+        "stop" : 1663038724000,
+        "duration" : 522
       }
     } ]
   }

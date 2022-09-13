@@ -1,0 +1,4 @@
+    INFO | test_cases.py | Line20 | 2022-09-13 11:12:01,937 | 测试用例【#2 IP归属地-错误IP】开始执行
+   DEBUG | connectionpool.py | Line452 | 2022-09-13 11:12:02,879 | https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
+    INFO | simple_requests.py | Line20 | 2022-09-13 11:12:02,879 | 正确处理了POST请求
+    INFO | test_cases.py | Line32 | 2022-09-13 11:12:02,879 | 测试用例【#2 IP归属地-错误IP】执行完毕

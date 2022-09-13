@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_cases.py:20 测试用例【#1 天气-正确城市】开始执行
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:227 Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 398
+[32mINFO    [0m root:simple_requests.py:20 正确处理了GET请求
+[32mINFO    [0m root:test_cases.py:32 测试用例【#1 天气-正确城市】执行完毕

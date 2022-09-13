@@ -1,0 +1,5 @@
+    INFO | test_cases.py | Line20 | 2022-09-13 11:12:03,477 | 测试用例【#1 天气-正确城市】开始执行
+   DEBUG | connectionpool.py | Line227 | 2022-09-13 11:12:03,983 | Starting new HTTP connection (1): wthrcdn.etouch.cn:80
+   DEBUG | connectionpool.py | Line452 | 2022-09-13 11:12:03,999 | http://wthrcdn.etouch.cn:80 "GET /weather_mini?city=%E5%8C%97%E4%BA%AC%E5%B8%82 HTTP/1.1" 200 398
+    INFO | simple_requests.py | Line20 | 2022-09-13 11:12:03,999 | 正确处理了GET请求
+    INFO | test_cases.py | Line32 | 2022-09-13 11:12:03,999 | 测试用例【#1 天气-正确城市】执行完毕

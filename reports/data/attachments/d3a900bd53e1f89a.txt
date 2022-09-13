@@ -1,5 +1,0 @@
-[32mINFO    [0m root:test_cases.py:19 测试用例【#3 IP归属地-不写IP】开始执行
-[32mINFO    [0m root:simple_requests.py:21 正在处理POST请求
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): www.yuanxiapi.cn:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://www.yuanxiapi.cn:443 "POST /api/iplocation/ HTTP/1.1" 200 None
-[32mINFO    [0m root:test_cases.py:23 测试用例【#3 IP归属地-不写IP】执行完毕

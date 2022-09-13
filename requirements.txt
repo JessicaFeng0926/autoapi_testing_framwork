@@ -1,0 +1,5 @@
+pyyaml
+xlrd
+requests
+pytest
+allure-pytest
